@@ -1,0 +1,87 @@
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 20vh;
+    position: relative;
+  }
+  .nav-img {
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+  }
+  .logo img {
+    margin-right: 4rem;
+    width: 60px;
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+  }
+  .mastroni img {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 6rem;
+  }
+  .feature-img1 {
+    width: 90%;
+  }
+  .why-info {
+    text-align: center;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products {
+    display: block;
+  }
+  .component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .instruction {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .footer {
+      height: 55vh;
+      align-items: center;
+      display: grid;
+      grid-template-areas: 
+                   'footer-logo'
+                   'buy'
+                   'footer-contact';
+    background: none;
+    background-color: gray;
+    padding: 1rem;
+    margin: 0;
+
+  }
+  .footer-contact {
+      grid-area: footer-contact;
+    margin: 0;
+    position: relative;
+    top: 0.5rem;
+    left: 12rem;
+  }
+  .buy {
+      grid-area: buy;
+      width: 100vw;
+      margin: 0 auto;
+  }
+  .footer-logo {
+      grid-area: footer-logo;
+      margin: 0;
+      margin: 0 0 0 12rem;
+      
+  }
+
+  .footer-logo img {
+      width: 100px;
+      margin: 0;
+  }
+}

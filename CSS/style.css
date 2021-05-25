@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --transition: 0.4s ease-in;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background: url(../img/bg-main.png) no-repeat center;
+}
+
+.navbar {
+    background-image: url(../img/navbar-bg.png);
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.nav-img{
+    width: 38%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 2rem;
+}
+.logo {
+    position: relative;
+    top: 2rem;
+    left: 11rem;
+}
+  
+
+.logo img:hover {
+    transform: scale(1.1);
+    transition: var(--transition);
+}
+.mastroni img:hover {
+    transform: scale(1.1);
+    transition: var(--transition);
+}
+
+.bottom-top-btn {
+    position: fixed;
+    left: 2rem;
+    bottom: 3rem;
+    animation: fixed-btn 2s infinite;
+    z-index: 999;
+    pointer-events: none;
+}
+@keyframes fixed-btn {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* main-section */
+
+
+.right-robot {
+    width: 370px;
+    height: 250px;
+    margin-left: 10rem;
+    position: relative;
+}
+.left-robot {
+    margin-left: 3rem;
+    position: relative;
+}
+
+.main-para1 {
+    margin-top: 8rem;
+    border-left: 4px solid #cf0000;
+    padding-left: 1.5rem;
+}
+.main-para2 {
+    margin-top: 3rem;
+    border-left: 4px solid #0080ff;
+    padding-left: 1.5rem;
+}
+
+.feature-img1{
+    width: 550px;
+}
+
+/* bowl  */
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.bg-color1 {
+    width: 200px;
+    height: 50%;
+    margin-top: 3rem;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.bg-color2 {
+    width: 200px;
+    height: 50%;
+    margin-top: 3rem;
+    background-color: #cf0000;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.component img:nth-of-type(1) {
+    margin-left: 6.5rem;
+}
+.component img:nth-of-type(2):hover {
+    transition: var(--transition);
+    transform: scale(1.10);
+}
+.main-instr {
+    width: 300px;
+    margin: 1rem auto;
+
+}
+.instruction {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 80%;
+    margin: 2rem auto;
+}
+
+.inst img {
+    width: 300px;
+}
+
+
+/* footer */
+.footer{
+    height: 220px;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    padding: 1rem 10rem 3rem 10rem ;
+    margin-top: 5rem;
+}
+.footer-contact {
+    width: 150px;
+    margin: 3rem 0 0 7rem;
+    color: #f1f1f1;
+}
+
+.footer-logo img {
+    width: 180px;
+    margin: 2rem 0 0 2rem;
+}
+
+.store {
+    border: 3px solid #f1f1f1;
+    border-radius: 5px;
+    max-width: 60%;
+    margin: 1rem auto 0;
+    padding: 0.5rem;
+    color: #f1f1f1;
+    cursor: pointer;
+}
