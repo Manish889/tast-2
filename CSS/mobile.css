@@ -33,13 +33,13 @@
 
   .products {
     display: block;
+    max-width: 90%;
   }
   .component {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 90%;
   }
   .instruction {
     display: block;
