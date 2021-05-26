@@ -4,26 +4,21 @@
     position: relative;
   }
   .nav-img {
-    position: absolute;
-    top: 1rem;
-    left: 4rem;
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .right-robot {
     margin: 1rem;
   }
-  .logo img {
-    margin-right: 4rem;
+  .nav-img img:nth-of-type(1) {
     width: 60px;
-    position: relative;
-    bottom: 30px;
-    right: 30px;
   }
-  .mastroni img {
+  .nav-img img:nth-of-type(2) {
     width: 200px;
     height: 50px;
-    position: absolute;
-    bottom: 0.5rem;
-    left: 6rem;
   }
   .feature-img1 {
     width: 90%;
