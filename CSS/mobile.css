@@ -8,6 +8,9 @@
     top: 1rem;
     left: 4rem;
   }
+  .right-robot {
+    margin: 1rem;
+  }
   .logo img {
     margin-right: 4rem;
     width: 60px;
@@ -70,7 +73,7 @@
   }
   .buy {
       grid-area: buy;
-      width: 100vw;
+      width: 90vw;
       margin: 0 auto;
   }
   .footer-logo {
